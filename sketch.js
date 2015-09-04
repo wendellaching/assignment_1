@@ -8,7 +8,7 @@ function draw() {
 	background(255, 255, 255);
 
 	// set a fill color
-	fill(255, 255, 255);
+	fill(0, 0, 0);
 
 	// set a stroke color
 	stroke(255, 255, 0);
