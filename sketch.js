@@ -17,6 +17,6 @@ function draw() {
 
 	// draw a circle
 	ellipse(320, 280, 100, 100);
-	ellipse(320, 180, 100, 100);
-	ellipse(320, 80, 100, 100);
+	ellipse(320, 200, 80, 80);
+	ellipse(320, 140, 60, 60);
 }
