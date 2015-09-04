@@ -4,15 +4,19 @@ function setup() {
 }
 
 function draw() {
-	// clear the background
-	background(255, 255, 255);
+	// clear the background - skyblue
+  background(180, 200, 255);
 
-	// set a fill color
-	fill(0, 0, 0);
+	// set a fill color white
+	fill(255, 255, 255);
+	// draw ground
+	noStroke();
+	rect(0, 300, 640, 100);
 
 	// set a stroke color
-	stroke(255, 0, 0);
 
 	// draw a circle
-	rect(320, 180, 100, 100);
+	ellipse(320, 280, 100, 100);
+	ellipse(320, 180, 100, 100);
+	ellipse(320, 80, 100, 100);
 }
