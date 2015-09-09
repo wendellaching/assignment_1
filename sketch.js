@@ -1,12 +1,11 @@
-function setup() {
+  function setup() {
 	// create a place to draw
 	createCanvas(640, 360);
 }
 
-function draw() {
+  function draw() {
 	// clear the background
-	background(0, 0, 0);
-	background(255, 255, 10);
+	background(255, 250, 205);
 
 	// set a fill color
 	fill(255, 255, 255);
@@ -15,4 +14,5 @@ function draw() {
 	stroke(255, 0, 0);
 
 	// draw a circle
+	ellipse(320, 180, 100, 100);
 }
