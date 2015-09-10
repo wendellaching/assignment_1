@@ -81,6 +81,15 @@ stroke(0,0,0);
 //lab coat line
 line(80,210,80,320);
 
+//stroke for glasses
+stroke(0,0,0);
+//fill in glasses
+fill(255,255,255);
+//glasses
+	rect(90,140,15,30);
+rect(60,140,15,30)
+//line for glasses
+line(110,150,55,150);
 
 
 
