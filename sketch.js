@@ -15,7 +15,7 @@
 	noStroke(0,0,0);
 
 	// set ground color
-	fill(153,153,0);
+	fill(0,92,9);
 
 	//set ground
 	rect(5,300,635,250);
@@ -34,8 +34,14 @@ ellipse(340, 35, 50, 50);
 ellipse(375, 40, 50, 50);
 
  // set fill color for sun
- fill(255,204,0);
+ fill(255,255,102);
 
  // draw a sun
  ellipse(50,50,50,50);
+
+ // set fill color for building
+ fill(132,31,39);
+ 
+  //foundation for building
+	rect(75,50,50,45);
 }
