@@ -98,20 +98,6 @@ fill(154,205,50);
 //children ellipse part five
 ellipse(400,210,45,45);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //fill color for fence
 fill(102,51,0);
 //fence
@@ -162,6 +148,11 @@ rect(90,140,15,30);
 rect(60,140,15,30);
 //line for glasses
 line(110,150,55,150);
+//fill for eyes
+fill(0,0,0)
+//eyes
+ellipse(67,160,5,5)
+ellipse(100,160,5,5)
 
 //stroke for door
 noStroke(255,0,0);
@@ -169,6 +160,20 @@ noStroke(255,0,0);
 fill(192,192,192);
 //door for building
 rect(500,200,100,100);
+
+//fill for eyes part one
+fill(0,0,0);
+//eyes for children
+ellipse(196,205,5,5);
+ellipse(210,205,5,5);
+ellipse(240,205,5,5);
+ellipse(260,205,5,5);
+ellipse(290,205,5,5);
+ellipse(310,205,5,5);
+ellipse(340,205,5,5);
+ellipse(360,205,5,5);
+ellipse(400,205,5,5);
+ellipse(420,205,5,5);
 
 
 
