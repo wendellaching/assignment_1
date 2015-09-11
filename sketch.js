@@ -81,8 +81,31 @@ triangle(260,300,300,225,330,300);
 fill(255,153,51);
 //children ellipse part three
 ellipse(300,210,45,45);
-//children ellipse part three
+//fill triangle body part four
+fill(0,0,153);
+//children's triangle body part four
+triangle(320,300,350,225,370,300);
+//fill children ellipse part four
+fill(204,153,255);
+//children ellipse part four
 ellipse(350,210,45,45);
+//fill for triangle body part five
+fill (216,191,216);
+//children's triangle body part five
+triangle(360,300,400,225,425,300);
+//fill children ellipse part five
+fill(154,205,50);
+//children ellipse part five
+ellipse(400,210,45,45);
+
+
+
+
+
+
+
+
+
 
 
 
