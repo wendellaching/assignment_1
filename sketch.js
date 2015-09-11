@@ -41,17 +41,66 @@ ellipse(375, 40, 50, 50);
  // set fill color for building
  fill(132,31,39);
 //foundation for building
- rect(450,180,200,150);
+ rect(450,150,200,150);
 
 // set fill color for top building
 fill(255,255,255);
 //top of building
-triangle(450,165,550,60,636,165);
+triangle(450,150,550,45,642,150);
 
 //fill color in tree body
 fill(102,51,0);
 //tree body
 rect(55,150,55,175);
+
+//tree arms
+rect(05,250,55,05);
+rect(105,250,55,05);
+
+//fill for triangle body part one
+fill(0,102,204);
+//children's triangle body part one
+triangle(180,300,210,225,250,300);
+//fill in children ellipse part one
+fill(255,255,153);
+//children ellipse part one
+ellipse(210,210,45,45);
+//fill in triangle body part two
+fill(255,102,102);
+//children's triangle body part two
+triangle(180,300,250,225,270,300);
+//fill in children ellipse part two
+fill(255,153,255);
+//children ellipse part two
+ellipse(250,210,45,45);
+//fill in triangle body part three
+fill(153,204,255);
+//children's triangle body part three
+triangle(260,300,300,225,330,300);
+//fill children ellipse part three
+fill(255,153,51);
+//children ellipse part three
+ellipse(300,210,45,45);
+//children ellipse part three
+ellipse(350,210,45,45);
+
+
+
+
+
+
+//fill color for fence
+fill(102,51,0);
+//fence
+rect(180,260,250,10);
+rect(180,300,250,10);
+rect(180,220,250,10);
+rect(180,160,10,140);
+rect(225,160,10,140);
+rect(270,160,10,140);
+rect(320,160,10,140);
+rect(370,160,10,140);
+rect(425,160,10,140);
 
 //stroke for the tree bush
 noStroke(0,0,0);
@@ -64,7 +113,7 @@ ellipse(130, 140, 50, 50);
 ellipse(70, 140, 50, 50);
 ellipse(45, 140, 50, 50);
 ellipse(80, 140, 50, 50);
-ellipse(100, 140, 40, 40);
+ellipse(100,140, 40, 40);
 ellipse(50,100,60,60);
 ellipse(97,100,55,55);
 ellipse(60,160,55,55);
@@ -86,10 +135,18 @@ stroke(0,0,0);
 //fill in glasses
 fill(255,255,255);
 //glasses
-	rect(90,140,15,30);
-rect(60,140,15,30)
+rect(90,140,15,30);
+rect(60,140,15,30);
 //line for glasses
 line(110,150,55,150);
+
+//stroke for door
+noStroke(255,0,0);
+//fill for door
+fill(192,192,192);
+//door for building
+rect(500,200,100,100);
+
 
 
 
