@@ -15,7 +15,7 @@
 	// set ground color
 	fill(0,92,9);
 	//set ground
-	rect(5,300,635,250);
+	rect(0,300,640,260);
 
 	// set a fill color for clouds
 	fill(255, 255, 255);
@@ -175,8 +175,9 @@ ellipse(360,205,5,5);
 ellipse(400,205,5,5);
 ellipse(420,205,5,5);
 
-
-
-
+//fill for doorknob
+fill(0,0,0);
+//doorknob
+ellipse(590,250,7,7);
 
 }
